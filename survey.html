@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Громадський транспор</title>
+</head>
+<body>
+    <img style="border:0" width="400" height="315"
+    src="foto/lviv_logo.jpg" alt="lviv_logo.jpg">
+    <header>
+        <h1>Онлайн опитування</h1>
+    </header>
+    <main>
+        <label>1.Якому транспорту Ви надаєте перевагу?</label>
+        <br>
+        <label>
+            <input type="radio" name="choice" value="автомобіль"> автомобіль
+        </label><br>
+        <label>
+            <input type="radio" name="choice" value="громадський транспорт"> громадський транспорт
+        </label><br>
+        <label>
+            <input type="radio" name="choice" value="таксі"> таксі
+        </label><br>
+        <label>
+            <input type="radio" name="choice" value="ходжу пішки"> ходжу пішки
+        </label><br>
+        <br>
+        <label>2.Чи влаштовує Вас стан громадського транспорту у Львові?</label>
+        <br>
+        <label>
+            <input type="radio" name="condition" value="так"> так
+        </label><br>
+        <label>
+            <input type="radio" name="condition" value="ні"> ні
+            </label><br>
+        <label>
+            <input type="radio" name="condition" value="не користуюсь"> не користуюсь
+        </label><br>
+        <br>
+        <label>3.Чи водите Ви автомобіль?</label>
+        <br>
+        <label>
+            <input type="radio" name="auto" value="так"> так
+        </label><br>
+        <label>
+            <input type="radio" name="auto" value="ні"> ні
+        </label><br>
+        <label>
+            <input type="radio" name="auto" value="ходжу на курси"> ходжу на курси
+        </label><br>
+        <br>
+        <form method="post" action="https://formspree.io/lyusi.lv@gmail.com">
+        <label for="client-name">Імя: </label>
+            <input id="client-name" type="text" placeholder="Імя"
+            name="client-name" required>
+            <br>
+            <label>Вік:
+                <input type="text" placeholder="**"
+                required pattern="[\d]{2}"
+                title="12"></label>
+            <br>
+            <label>Стать</label>
+            <label>
+                <input type="radio" name="стать" value="чол"> чол
+            </label>
+            <label>
+                <input type="radio" name="стать" value="жін"> жін
+            </label>
+            <br>
+            <label>Email:
+                <input type="email" name="client-email"
+                placeholder="Email" required></label>
+                <br>
+            <label>
+                <input type="text" name="text"
+                placeholder="text"></label>
+                <br>
+                <input type="submit" value="відправити">
+                <input type="reset" value="відмінити"><br>
+                <br>
+        </form>
+    </main>
+</body>
+</html>

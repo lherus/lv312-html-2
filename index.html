@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Громадський транспор</title>
 </head>
 <body>
     <header>
@@ -12,26 +12,21 @@
     </header>
     <main>
         <article>
-            <h4>Зображення</h4>
+            <h2><i>Зображення</i></h2>
             <img style="border:0" width="560" height="315"
-            src="http://svitppt.com.ua/images/31/30700/960/img13.jpg" alt="img13.jpg">
+            src="foto/trans.jpg" alt="trans.jpg">
         </article>
         <article>
-            <h4>Факти про транспорт Львова</h4>
-            <textarea rows="15" cols="70">
-Трамваї - Львівський трамвай 31 травня 1894 року вирушив у перший свій рейс.
-
-Тролейбуси - Львів став першим містом в Україні, де запроваджено безготівкову систему розрахунку в електротранспорті міста з 16 лютого 2017 р.
-
-Маршрутні таксі - На даний час маршрутні таксі курсують у найвіддаленіші райони міста, всього нараховують 53 маршрути.
-
-Нічні маршрутні таксі - Маршрутні таксі курсують у місті вночі (з 23:00 до 5:00).
-
-Таксі - У Львові налічується близько 3,5 тисяч машин таксі.
-            </textarea>
+            <h2><i>Факти про транспорт Львова</i></h2>
+            <p><b>Трамваї</b> - Львівський трамвай 31 травня 1894 року вирушив у перший свій рейс.</p>
+            <p><b>Тролейбуси</b> - Львів став першим містом в Україні, де запроваджено безготівкову систему розрахунку в електротранспорті міста з 16 лютого 2017 р.</p>
+            <p><b>Маршрутні таксі</b> - На даний час маршрутні таксі курсують у найвіддаленіші райони міста, всього нараховують 53 маршрути.</p>
+            <p><b>Нічні маршрутні таксі</b> - Маршрутні таксі курсують у місті вночі (з 23:00 до 5:00).</p>
+            <p><b>Таксі</b> - У Львові налічується близько 3,5 тисяч машин таксі.</p>
         </article>
         <article>
-            <h4>Дослідження мегамеркету, яким траспортом відвідувачів добираються до мегамаркету </h4>
+            <h2><i>Дослідження одного з мегамеркетів</i></h2>
+            <p>Дані опитування відвідувачів - яким траспортом відвідувачів добираються до мегамаркету:</p>
             <table border>
                 <thead></thead>
                 <tbody>
@@ -56,7 +51,7 @@
                 </tbody>
                 <tfoot></tfoot>
             </table>
-            <h4>Отже, популярність використання транспорту:</h4>
+            <p>Отже, популярність використання транспорту:</p>
             <ol type="1" start="1">
                 <li>автомобілем</li>
                 <li>громадським транспортом</li>
@@ -64,77 +59,6 @@
                 <li>таксі</li>
             </ol>
         </article>
-        <article>
-            <hr>
-            <h2>Онлайн опитування</h2>
-            <label>1.Якому транспорту Ви надаєте перевагу?</label>
-            <br>
-            <label>
-                <input type="radio" name="перевага" value="автомобіль"> автомобіль
-            </label><br>
-            <label>
-                <input type="radio" name="перевага" value="громадський транспорт"> громадський транспорт
-            </label><br>
-            <label>
-                <input type="radio" name="перевага" value="таксі"> таксі
-            </label><br>
-            <label>
-                <input type="radio" name="перевага" value="ходжу пішки"> ходжу пішки
-            </label><br>
-            <br>
-            <label>2.Чи влаштовує Вас стан громадського транспорту у Львові?</label>
-            <br>
-            <label>
-                <input type="radio" name="стан" value="так"> так
-            </label><br>
-            <label>
-                <input type="radio" name="стан" value="ні"> ні
-            </label><br>
-            <label>
-                <input type="radio" name="стан" value="не користуюсь"> не користуюсь
-            </label><br>
-            <br>
-            <label>3.Чи водите Ви автомобіль?</label>
-            <br>
-            <label>
-                <input type="radio" name="авто" value="так"> так
-            </label><br>
-            <label>
-                <input type="radio" name="авто" value="ні"> ні
-            </label><br>
-            <label>
-                <input type="radio" name="авто" value="ходжу на курси"> ходжу на курси
-            </label><br>
-            <br>
-            <!-- Method GET: form.php?name=Jon&email=jon@wall.com -->
-            <!-- Method POST: form.php -->
-            <form method="post" action="https://formspree.io/lyusi.lv@gmail.com">
-                <label for="client-name">Імя: </label>
-                <input id="client-name" type="text" placeholder="Імя"
-                name="client-name" required>
-                <br>
-                <label>Вік:
-                <input type="text" placeholder="**"
-                required pattern="[\d]{2}"
-                title="12"></label>
-                <br>
-                <label>Стать</label>
-                <label>
-                    <input type="radio" name="стать" value="чол"> чол
-                </label>
-                <label>
-                    <input type="radio" name="стать" value="жін"> жін
-                </label>
-                <br>
-                <label>Email:
-                <input type="email" name="client-email"
-                placeholder="Email" required></label><br>
-                <br>
-                <input type="submit" value="відправити">
-                <input type="reset" value="відмінити"><br>
-                <br>
-            </form>
-         </article>
     </main>
 </body>
 </html>
